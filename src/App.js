@@ -26,7 +26,7 @@ import './App.css';
 // }
 
 const App = () => (
-  <P5Wrapper sketch={testSketch} />
+  <P5Wrapper sketch={testSketch} rotation={45} />
 )
 
 export default App;
