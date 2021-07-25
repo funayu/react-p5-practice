@@ -19,6 +19,8 @@ const testSketch = (p) => {
     p.normalMaterial()
     p.noStroke()
     p.push()
+    p.rotateX(90)
+    p.rotateZ(90)
     p.rotateY(rotation)
     p.box(100)
     p.pop()
